@@ -9,3 +9,7 @@ dags:
     repo: https://github.com/Kimwonjoon/Twilight_dags.git
     branch: main
     subPath: "dags"
+
+logs:
+  persistence:
+    enabled: false
