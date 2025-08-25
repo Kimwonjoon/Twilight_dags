@@ -1,0 +1,11 @@
+executor: LocalExecutor
+
+dags:
+  persistence:
+    enabled: false
+
+  gitSync:
+    enabled: true
+    repo: https://github.com/Kimwonjoon/Twilight_dags.git
+    branch: main
+    subPath: "dags"
