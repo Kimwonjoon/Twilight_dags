@@ -1,3 +1,8 @@
+images:
+  airflow:
+    repository: kimpass189/kim_airflow
+    tag: 0.1.0
+
 executor: LocalExecutor
 
 extraEnvFrom: |
