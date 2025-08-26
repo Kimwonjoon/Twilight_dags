@@ -1,9 +1,12 @@
 executor: LocalExecutor
 
+extraEnvFrom: |
+  - secretRef:
+      name: airflow-api-keys
+
 dags:
   persistence:
     enabled: false
-
   gitSync:
     enabled: true
     repo: https://github.com/Kimwonjoon/Twilight_dags.git
