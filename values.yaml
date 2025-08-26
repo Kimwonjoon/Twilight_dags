@@ -11,7 +11,7 @@ dags:
     enabled: true
     repo: https://github.com/Kimwonjoon/Twilight_dags.git
     branch: main
-    subPath: "dags"
+    subPath: ""
 
 logs:
   persistence:
